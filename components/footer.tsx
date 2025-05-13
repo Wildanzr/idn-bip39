@@ -14,6 +14,12 @@ export default function Footer() {
             Beranda
           </Link>
           <Link
+            href="/wordlist"
+            className="text-xs hover:underline underline-offset-4"
+          >
+            Wordlist
+          </Link>
+          <Link
             href="/privacy-policy"
             className="text-xs hover:underline underline-offset-4"
           >

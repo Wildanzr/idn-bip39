@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Wallet, Key } from "lucide-react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import GenerateWallet from "./_components/generate-wallet";
 
 export default function Home() {
   return (
@@ -23,7 +24,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="space-x-4">
-                <Button size="lg">Buat Wallet Sekarang</Button>
+                <Button size="lg" asChild>
+                  <a href="#generate-wallet" className="scroll-smooth">
+                    Buat Wallet Sekarang
+                  </a>
+                </Button>
               </div>
             </div>
           </div>
@@ -86,6 +91,27 @@ export default function Home() {
                 </CardContent>
               </Card>
             </div>
+          </div>
+        </section>
+
+        {/* Generate Wallet Section */}
+        <section
+          id="generate-wallet"
+          className="w-full py-12 md:py-24 lg:py-32 bg-slate-50 dark:bg-slate-900/50"
+        >
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+              <div className="space-y-2">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                  Buat Wallet Anda
+                </h2>
+                <p className="mx-auto max-w-[700px] text-slate-700 md:text-lg dark:text-slate-400">
+                  Generate wallet Ethereum dan blockchain EVM lainnya dengan
+                  cepat dan aman
+                </p>
+              </div>
+            </div>
+            <GenerateWallet />
           </div>
         </section>
       </main>

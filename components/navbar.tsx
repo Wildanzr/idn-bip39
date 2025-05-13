@@ -32,7 +32,9 @@ export default function Navbar() {
           </Link>
         </nav>
         <div className="ml-4">
-          <Button>Buat Wallet</Button>
+          <Link href="/#generate-wallet" className="scroll-smooth">
+            <Button>Buat Wallet</Button>
+          </Link>
         </div>
       </div>
     </header>
