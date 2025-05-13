@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     creator: "evmwalletgen",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/icons/536.svg`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/idn-bip39.png`,
         width: 1200,
         height: 630,
       },
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     siteName: "EVM Wallet Generator",
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/assets/icons/536.svg`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/idn-bip39.png`,
         width: 1200,
         height: 630,
       },
