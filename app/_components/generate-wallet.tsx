@@ -90,9 +90,9 @@ const GenerateWallet = () => {
     <div className="w-full max-w-2xl mx-auto py-6 space-y-6">
       <Card className="border-2">
         <CardHeader>
-          <CardTitle className="text-center">Pembuat Dompet Ethereum</CardTitle>
+          <CardTitle className="text-center">Pembuat Dompet EVM</CardTitle>
           <CardDescription className="text-center">
-            Buat dompet Ethereum baru dengan frasa pemulihan mnemonic
+            Buat dompet EVM baru dengan Indonesian wordlist BIP39
           </CardDescription>
         </CardHeader>
         <CardContent className="flex justify-center">
@@ -100,7 +100,7 @@ const GenerateWallet = () => {
             onClick={generateNewWallet}
             disabled={isGenerating}
             size="lg"
-            className="w-64"
+            className="w-64 cursor-pointer"
           >
             {isGenerating ? "Membuat..." : "Buat Dompet Baru"}
           </Button>
@@ -230,6 +230,11 @@ const GenerateWallet = () => {
           <CardFooter>
             <Alert variant="destructive" className="w-full">
               <AlertTitle>Peringatan Keamanan</AlertTitle>
+              <AlertDescription>
+                Mnemonic ini masih tidak bisa digunakan pada dompet-dompet
+                populer seperti MetaMask dan Trust Wallet karena belum ada
+                Indonesian wordlist yang resmi.
+              </AlertDescription>
               <AlertDescription>
                 Jangan pernah membagikan kunci pribadi atau frasa mnemonic
                 kepada siapapun. Simpan secara aman secara offline.

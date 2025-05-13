@@ -21,7 +21,7 @@ const WordlistPage = () => {
         </h1>
 
         <p className="mb-6 text-gray-600">
-          Berikut adalah daftar lengkap 1024 kata bahasa Indonesia yang
+          Berikut adalah daftar lengkap 2048 kata bahasa Indonesia yang
           digunakan untuk frasa seed mnemonik BIP39.
         </p>
 

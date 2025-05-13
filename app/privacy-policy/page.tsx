@@ -82,20 +82,6 @@ export default function PrivacyPolicy() {
                 </div>
 
                 <div className="space-y-2">
-                  <h2 className="text-2xl font-bold">Hak Privasi Anda</h2>
-                  <p>Anda memiliki hak untuk:</p>
-                  <ul className="list-disc pl-6 space-y-1">
-                    <li>
-                      Mengakses informasi pribadi yang kami miliki tentang Anda
-                    </li>
-                    <li>Meminta koreksi informasi yang tidak akurat</li>
-                    <li>Meminta penghapusan data Anda</li>
-                    <li>Menolak pemrosesan data Anda</li>
-                    <li>Meminta pembatasan pemrosesan data Anda</li>
-                  </ul>
-                </div>
-
-                <div className="space-y-2">
                   <h2 className="text-2xl font-bold">
                     Perubahan pada Kebijakan Privasi
                   </h2>
